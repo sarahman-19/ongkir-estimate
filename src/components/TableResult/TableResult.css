@@ -1,0 +1,21 @@
+.TableResult {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 5px 30px 5px 30px;
+}
+
+.result {
+  display: inline-block;
+  padding: 15px;
+  box-shadow: 0 2px 2px 2px #ddd;
+  border-radius: 20px;
+}
+
+th {
+  padding: 6px 10px 6px 6px;
+}
+
+td {
+  padding: 5px;
+}

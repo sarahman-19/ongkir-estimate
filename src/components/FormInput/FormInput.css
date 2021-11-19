@@ -1,0 +1,16 @@
+.FormInput {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.form {
+  padding: 20px;
+  box-shadow: 0 2px 2px 2px #ddd;
+  border-radius: 20px;
+}
+
+.input {
+  margin-bottom: 10px;
+}
