@@ -97,7 +97,7 @@ class Home extends Component {
       <div className="Home">
         <Header />
         <FormInput handleSubmit={this.hitungEstimasJarak} />
-        <TableResult dari={this.state.cabang} tujuan={this.state.alamatTujuan.toString()} jarak={Number(this.state.jarak.toString()) / 1000}/>
+        <TableResult dari={this.state.cabang} tujuan={this.state.alamatTujuan.toString()} jarak={Math.ceil(Number(this.state.jarak.toString()) / 1000)}/>
       </div>
     );
   }
